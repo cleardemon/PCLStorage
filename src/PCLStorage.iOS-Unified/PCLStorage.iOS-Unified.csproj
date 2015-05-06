@@ -2,9 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3B479AED-CC1C-46F7-AF55-8BF9E8BA1C01}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
@@ -75,7 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PCLStorage.Abstractions.NoSL\PCLStorage.Abstractions.NoSL.csproj">
-      <Project>{8f4c2e94-b8c5-477b-a315-ca58c70617e4}</Project>
+      <Project>{8F4C2E94-B8C5-477B-A315-CA58C70617E4}</Project>
       <Name>PCLStorage.Abstractions.NoSL</Name>
     </ProjectReference>
   </ItemGroup>

@@ -6,7 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using PCLTesting.Infrastructure;
+using PCLTesting.Runner;
 
 namespace PCLStorage.Test.Android
 {

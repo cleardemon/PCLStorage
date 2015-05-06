@@ -78,7 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PCLStorage.Abstractions.NoSL\PCLStorage.Abstractions.NoSL.csproj">
-      <Project>{8f4c2e94-b8c5-477b-a315-ca58c70617e4}</Project>
+      <Project>{8F4C2E94-B8C5-477B-A315-CA58C70617E4}</Project>
       <Name>PCLStorage.Abstractions.NoSL</Name>
     </ProjectReference>
   </ItemGroup>
